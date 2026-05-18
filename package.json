@@ -1,8 +1,11 @@
 {
   "name": "@wyre-technology/node-blumira",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js client library for the Blumira SIEM API",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
