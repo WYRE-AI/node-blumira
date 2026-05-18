@@ -1,3 +1,14 @@
+## [Unreleased]
+
+### Fixed
+
+- Published package now includes the compiled `dist/` output. `package.json`
+  had no `files` field, so npm honored `.gitignore` (which ignores `dist/`)
+  and published only `src/`. Consumers running `npm ci --ignore-scripts`
+  (e.g. Docker builds) never ran the `prepare` build step, so the package's
+  `main`/`exports` pointed at a non-existent `dist/index.js`, causing
+  `ERR_MODULE_NOT_FOUND` at runtime. Added `"files": ["dist"]`.
+
 # 1.0.0 (2026-02-26)
 
 
