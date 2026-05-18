@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wyre-technology/node-blumira/compare/v1.0.0...v1.0.1) (2026-05-18)
+
+
+### Bug Fixes
+
+* include compiled dist/ in published package ([#2](https://github.com/wyre-technology/node-blumira/issues/2)) ([8344613](https://github.com/wyre-technology/node-blumira/commit/834461325d199862a9c752d15091c2fde1613925))
+
 ## [Unreleased]
 
 ### Fixed
