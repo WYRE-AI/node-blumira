@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/wyre-technology/node-blumira/compare/v1.0.1...v1.0.2) (2026-07-23)
+
+
+### Bug Fixes
+
+* **ci:** drop Node 18.x from the test matrix (EOL, vitest 4 requires 20.12+) ([#26](https://github.com/wyre-technology/node-blumira/issues/26)) ([cded5b1](https://github.com/wyre-technology/node-blumira/commit/cded5b1b1b574492aef65f84abb4e3eb1f0a6bcb))
+* **deps:** re-pin typescript to ^6.0.3 + ignoreDeprecations for TS7 DTS build breakage ([#25](https://github.com/wyre-technology/node-blumira/issues/25)) ([332d808](https://github.com/wyre-technology/node-blumira/commit/332d808768bcc2caa476a95345cceb098fde6bd4))
+
 ## [1.0.1](https://github.com/wyre-technology/node-blumira/compare/v1.0.0...v1.0.1) (2026-05-18)
 
 
