@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/WYRE-AI/node-blumira/compare/v1.0.2...v1.0.3) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#37](https://github.com/WYRE-AI/node-blumira/issues/37)) ([498157f](https://github.com/WYRE-AI/node-blumira/commit/498157f924f87c25ec56d19ff969e78965cff4d8))
+
 ## [1.0.2](https://github.com/WYRE-AI/node-blumira/compare/v1.0.1...v1.0.2) (2026-07-23)
 
 
