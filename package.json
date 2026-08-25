@@ -1,5 +1,5 @@
 {
-  "name": "@wyre-technology/node-blumira",
+  "name": "@wyre-ai/node-blumira",
   "version": "1.0.2",
   "description": "Node.js client library for the Blumira SIEM API",
   "type": "module",

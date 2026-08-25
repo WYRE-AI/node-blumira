@@ -1,6 +1,6 @@
-# @wyre-technology/node-blumira
+# @wyre-ai/node-blumira
 
-[![Release](https://github.com/wyre-technology/node-blumira/actions/workflows/release.yml/badge.svg)](https://github.com/wyre-technology/node-blumira/actions/workflows/release.yml)
+[![Release](https://github.com/WYRE-AI/node-blumira/actions/workflows/release.yml/badge.svg)](https://github.com/WYRE-AI/node-blumira/actions/workflows/release.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Node.js client library for the [Blumira SIEM](https://blumira.com) API. Zero production dependencies, native `fetch`, TypeScript, dual ESM/CJS.
@@ -8,15 +8,15 @@ Node.js client library for the [Blumira SIEM](https://blumira.com) API. Zero pro
 ## Installation
 
 ```bash
-npm install @wyre-technology/node-blumira
+npm install @wyre-ai/node-blumira
 ```
 
-> **Note:** Published to GitHub Packages. Add `@wyre-technology:registry=https://npm.pkg.github.com` to your `.npmrc`.
+> **Note:** Published to GitHub Packages. Add `@wyre-ai:registry=https://npm.pkg.github.com` to your `.npmrc`.
 
 ## Quick Start
 
 ```typescript
-import { BlumiraClient } from '@wyre-technology/node-blumira';
+import { BlumiraClient } from '@wyre-ai/node-blumira';
 
 const client = new BlumiraClient({
   jwtToken: process.env.BLUMIRA_JWT_TOKEN!,
@@ -79,7 +79,7 @@ const client = new BlumiraClient({
 ## Error Handling
 
 ```typescript
-import { BlumiraError, AuthenticationError, NotFoundError } from '@wyre-technology/node-blumira';
+import { BlumiraError, AuthenticationError, NotFoundError } from '@wyre-ai/node-blumira';
 
 try {
   await client.findings.get('nonexistent-id');
